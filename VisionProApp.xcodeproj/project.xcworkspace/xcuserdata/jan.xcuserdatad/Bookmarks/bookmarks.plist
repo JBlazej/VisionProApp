@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>35</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>0</string>
+					<key>Timestamp</key>
+					<string>729539166.291592</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>VisionProTodoApp/Core/Views/TodoView/StatusIndicatorView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>//
+//  StatusIndicatorView.swift
+//  VisionProTodoApp
+//
+//  Created by Jan Blazej on 13.02.2024.
+//
+
+import SwiftUI
+
+struct StatusIndicatorView: View {
+    var status: TodoStatus
+    
+    var body: some View {
+        let backgroundColor: Color = {
+            switch status {
+            case .completed:
+                    return Color.green
+            case .pending:
+                return Color.orange
+                
+            }
+        }()
+        
+        Text(status == .pending ? "Pending" : "Completed")
+            .font(.footnote)
+            .foregroundColor(.white)
+            .padding(Spacing.s8)
+            .background(backgroundColor)
+            .clipShape(Capsule())
+    }
+}
+
+#Preview {
+    StatusIndicatorView(status: .pending)
+}
+</string>
+				<key>leading</key>
+				<string></string>
+				<key>trailing</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

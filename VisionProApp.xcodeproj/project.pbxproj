@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D137D9E2B7C0D7200BC2594 /* CreateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D137D9D2B7C0D7200BC2594 /* CreateTodoView.swift */; };
+		3D137DA12B7C128100BC2594 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D137DA02B7C128100BC2594 /* AppScreen.swift */; };
+		3D656F092B7CADB3000AC599 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D656F082B7CADB3000AC599 /* ProjectCardView.swift */; };
 		3D6EDD9C2B7BACCE00083A1A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3D6EDD9B2B7BACCE00083A1A /* RealityKitContent */; };
-		3D6EDD9E2B7BACCE00083A1A /* VisionProTodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDD9D2B7BACCE00083A1A /* VisionProTodoAppApp.swift */; };
-		3D6EDDA02B7BACCE00083A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDD9F2B7BACCE00083A1A /* ContentView.swift */; };
-		3D6EDDA22B7BACCE00083A1A /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA12B7BACCE00083A1A /* ImmersiveView.swift */; };
+		3D6EDD9E2B7BACCE00083A1A /* VisionProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */; };
 		3D6EDDA42B7BACCE00083A1A /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */; };
 		3D6EDDA62B7BACCF00083A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */; };
 		3D6EDDA92B7BACCF00083A1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA82B7BACCF00083A1A /* Preview Assets.xcassets */; };
+		3D6EDDB22B7BADB700083A1A /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB12B7BADB700083A1A /* Symbols.swift */; };
+		3D6EDDB42B7BAE1F00083A1A /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */; };
+		3D6EDDB62B7BAE5000083A1A /* Radii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB52B7BAE5000083A1A /* Radii.swift */; };
+		3D6EDDBF2B7BAF9B00083A1A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDBE2B7BAF9B00083A1A /* Todo.swift */; };
+		3D6EDDC12B7BB06600083A1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC02B7BB06600083A1A /* HomeView.swift */; };
+		3D6EDDC52B7BB1F300083A1A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC42B7BB1F300083A1A /* RootView.swift */; };
+		3D6EDDC72B7BBBA400083A1A /* RootNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC62B7BBBA400083A1A /* RootNavigationView.swift */; };
+		3D6EDDCB2B7BE10900083A1A /* TodoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */; };
+		3D6EDDCD2B7BE19100083A1A /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */; };
+		3DAA89CC2B7D11720016AF02 /* ModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA89CB2B7D11720016AF02 /* ModelsView.swift */; };
+		3DAA89D02B7D11D50016AF02 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */; };
+		3DCD02CF2B7CC542008EAD8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD02CE2B7CC542008EAD8F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D6EDD962B7BACCE00083A1A /* VisionProTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D137D9D2B7C0D7200BC2594 /* CreateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoView.swift; sourceTree = "<group>"; };
+		3D137DA02B7C128100BC2594 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		3D656F082B7CADB3000AC599 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		3D6EDD962B7BACCE00083A1A /* VisionProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6EDD9A2B7BACCE00083A1A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		3D6EDD9D2B7BACCE00083A1A /* VisionProTodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProTodoAppApp.swift; sourceTree = "<group>"; };
-		3D6EDD9F2B7BACCE00083A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3D6EDDA12B7BACCE00083A1A /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProApp.swift; sourceTree = "<group>"; };
 		3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6EDDA82B7BACCF00083A1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D6EDDAA2B7BACCF00083A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6EDDB12B7BADB700083A1A /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		3D6EDDB52B7BAE5000083A1A /* Radii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radii.swift; sourceTree = "<group>"; };
+		3D6EDDBE2B7BAF9B00083A1A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		3D6EDDC02B7BB06600083A1A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D6EDDC42B7BB1F300083A1A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3D6EDDC62B7BBBA400083A1A /* RootNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationView.swift; sourceTree = "<group>"; };
+		3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCardView.swift; sourceTree = "<group>"; };
+		3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		3DAA89CB2B7D11720016AF02 /* ModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsView.swift; sourceTree = "<group>"; };
+		3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
+		3DAA89D12B7D17480016AF02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3DCD02CE2B7CC542008EAD8F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,10 +67,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D137D9B2B7C0D5200BC2594 /* CreateTodo */ = {
+			isa = PBXGroup;
+			children = (
+				3D137D9C2B7C0D5E00BC2594 /* Views */,
+			);
+			path = CreateTodo;
+			sourceTree = "<group>";
+		};
+		3D137D9C2B7C0D5E00BC2594 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D137D9D2B7C0D7200BC2594 /* CreateTodoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D137D9F2B7C127300BC2594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D137DA02B7C128100BC2594 /* AppScreen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D656F0A2B7CADD5000AC599 /* ProjectCardView */ = {
+			isa = PBXGroup;
+			children = (
+				3D656F082B7CADB3000AC599 /* ProjectCardView.swift */,
+			);
+			path = ProjectCardView;
+			sourceTree = "<group>";
+		};
 		3D6EDD8D2B7BACCE00083A1A = {
 			isa = PBXGroup;
 			children = (
-				3D6EDD982B7BACCE00083A1A /* VisionProTodoApp */,
+				3D6EDD982B7BACCE00083A1A /* VisionProApp */,
 				3D6EDD992B7BACCE00083A1A /* Packages */,
 				3D6EDD972B7BACCE00083A1A /* Products */,
 			);
@@ -52,23 +111,25 @@
 		3D6EDD972B7BACCE00083A1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D6EDD962B7BACCE00083A1A /* VisionProTodoApp.app */,
+				3D6EDD962B7BACCE00083A1A /* VisionProApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D6EDD982B7BACCE00083A1A /* VisionProTodoApp */ = {
+		3D6EDD982B7BACCE00083A1A /* VisionProApp */ = {
 			isa = PBXGroup;
 			children = (
-				3D6EDD9D2B7BACCE00083A1A /* VisionProTodoAppApp.swift */,
-				3D6EDD9F2B7BACCE00083A1A /* ContentView.swift */,
-				3D6EDDA12B7BACCE00083A1A /* ImmersiveView.swift */,
+				3D6EDDB82B7BAEBE00083A1A /* Features */,
+				3D6EDDB72B7BAEB400083A1A /* Core */,
+				3D6EDDB02B7BAD2200083A1A /* Resources */,
+				3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */,
 				3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */,
 				3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */,
 				3D6EDDAA2B7BACCF00083A1A /* Info.plist */,
 				3D6EDDA72B7BACCF00083A1A /* Preview Content */,
+				3DAA89D12B7D17480016AF02 /* README.md */,
 			);
-			path = VisionProTodoApp;
+			path = VisionProApp;
 			sourceTree = "<group>";
 		};
 		3D6EDD992B7BACCE00083A1A /* Packages */ = {
@@ -87,12 +148,136 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3D6EDDB02B7BAD2200083A1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDB12B7BADB700083A1A /* Symbols.swift */,
+				3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */,
+				3D6EDDB52B7BAE5000083A1A /* Radii.swift */,
+				3DCD02CE2B7CC542008EAD8F /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D6EDDB72B7BAEB400083A1A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDC82B7BE0E400083A1A /* Views */,
+				3D6EDDBD2B7BAF6F00083A1A /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3D6EDDB82B7BAEBE00083A1A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA89CD2B7D11BC0016AF02 /* Space */,
+				3DAA89C92B7D11590016AF02 /* Models */,
+				3D137D9B2B7C0D5200BC2594 /* CreateTodo */,
+				3D6EDDC22B7BB1E000083A1A /* Root */,
+				3D6EDDB92B7BAEC700083A1A /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3D6EDDB92B7BAEC700083A1A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDBB2B7BAEE000083A1A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D6EDDBB2B7BAEE000083A1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDC02B7BB06600083A1A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D6EDDBD2B7BAF6F00083A1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDBE2B7BAF9B00083A1A /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D6EDDC22B7BB1E000083A1A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3D137D9F2B7C127300BC2594 /* Model */,
+				3D6EDDC32B7BB1E700083A1A /* Views */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3D6EDDC32B7BB1E700083A1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDC42B7BB1F300083A1A /* RootView.swift */,
+				3D6EDDC62B7BBBA400083A1A /* RootNavigationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D6EDDC82B7BE0E400083A1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D656F0A2B7CADD5000AC599 /* ProjectCardView */,
+				3D6EDDC92B7BE0FA00083A1A /* TodoCardView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D6EDDC92B7BE0FA00083A1A /* TodoCardView */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */,
+				3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */,
+			);
+			path = TodoCardView;
+			sourceTree = "<group>";
+		};
+		3DAA89C92B7D11590016AF02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA89CA2B7D11650016AF02 /* Views */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DAA89CA2B7D11650016AF02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA89CB2B7D11720016AF02 /* ModelsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DAA89CD2B7D11BC0016AF02 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA89CE2B7D11C60016AF02 /* Views */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		3DAA89CE2B7D11C60016AF02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D6EDD952B7BACCE00083A1A /* VisionProTodoApp */ = {
+		3D6EDD952B7BACCE00083A1A /* VisionProApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D6EDDAD2B7BACCF00083A1A /* Build configuration list for PBXNativeTarget "VisionProTodoApp" */;
+			buildConfigurationList = 3D6EDDAD2B7BACCF00083A1A /* Build configuration list for PBXNativeTarget "VisionProApp" */;
 			buildPhases = (
 				3D6EDD922B7BACCE00083A1A /* Sources */,
 				3D6EDD932B7BACCE00083A1A /* Frameworks */,
@@ -102,12 +287,12 @@
 			);
 			dependencies = (
 			);
-			name = VisionProTodoApp;
+			name = VisionProApp;
 			packageProductDependencies = (
 				3D6EDD9B2B7BACCE00083A1A /* RealityKitContent */,
 			);
 			productName = VisionProTodoApp;
-			productReference = 3D6EDD962B7BACCE00083A1A /* VisionProTodoApp.app */;
+			productReference = 3D6EDD962B7BACCE00083A1A /* VisionProApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D6EDD912B7BACCE00083A1A /* Build configuration list for PBXProject "VisionProTodoApp" */;
+			buildConfigurationList = 3D6EDD912B7BACCE00083A1A /* Build configuration list for PBXProject "VisionProApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +323,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D6EDD952B7BACCE00083A1A /* VisionProTodoApp */,
+				3D6EDD952B7BACCE00083A1A /* VisionProApp */,
 			);
 		};
 /* End PBXProject section */
@@ -161,9 +346,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6EDDA02B7BACCE00083A1A /* ContentView.swift in Sources */,
-				3D6EDD9E2B7BACCE00083A1A /* VisionProTodoAppApp.swift in Sources */,
-				3D6EDDA22B7BACCE00083A1A /* ImmersiveView.swift in Sources */,
+				3D656F092B7CADB3000AC599 /* ProjectCardView.swift in Sources */,
+				3DAA89D02B7D11D50016AF02 /* SpaceView.swift in Sources */,
+				3D6EDDBF2B7BAF9B00083A1A /* Todo.swift in Sources */,
+				3D6EDDB22B7BADB700083A1A /* Symbols.swift in Sources */,
+				3D6EDDCD2B7BE19100083A1A /* StatusIndicatorView.swift in Sources */,
+				3D6EDDC72B7BBBA400083A1A /* RootNavigationView.swift in Sources */,
+				3D137D9E2B7C0D7200BC2594 /* CreateTodoView.swift in Sources */,
+				3D6EDDB42B7BAE1F00083A1A /* Spacing.swift in Sources */,
+				3D6EDD9E2B7BACCE00083A1A /* VisionProApp.swift in Sources */,
+				3D6EDDC52B7BB1F300083A1A /* RootView.swift in Sources */,
+				3DAA89CC2B7D11720016AF02 /* ModelsView.swift in Sources */,
+				3D6EDDCB2B7BE10900083A1A /* TodoCardView.swift in Sources */,
+				3D6EDDC12B7BB06600083A1A /* HomeView.swift in Sources */,
+				3D6EDDB62B7BAE5000083A1A /* Radii.swift in Sources */,
+				3D137DA12B7C128100BC2594 /* AppScreen.swift in Sources */,
+				3DCD02CF2B7CC542008EAD8F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionProTodoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionProApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -321,7 +519,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VisionProTodoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionProApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -342,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D6EDD912B7BACCE00083A1A /* Build configuration list for PBXProject "VisionProTodoApp" */ = {
+		3D6EDD912B7BACCE00083A1A /* Build configuration list for PBXProject "VisionProApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D6EDDAB2B7BACCF00083A1A /* Debug */,
@@ -351,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D6EDDAD2B7BACCF00083A1A /* Build configuration list for PBXNativeTarget "VisionProTodoApp" */ = {
+		3D6EDDAD2B7BACCF00083A1A /* Build configuration list for PBXNativeTarget "VisionProApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D6EDDAE2B7BACCF00083A1A /* Debug */,
