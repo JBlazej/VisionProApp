@@ -6,6 +6,5 @@ target 'VisionProTodoApp' do
   use_frameworks!
 
   # Pods for VisionProTodoApp
-  pod 'YogaKit'
 
 end
