@@ -52,8 +52,10 @@ struct TodoCardView: View {
                         Button("Delete TODO") {
                             ctx.delete(todo)
                         }
-                        Button("Update TODO") {
-                            isOpenBottomsheet.toggle()
+                        if !todo.isCompleted {
+                            Button("Update TODO") {
+                                isOpenBottomsheet.toggle()
+                            }
                         }
                     }
                 }
