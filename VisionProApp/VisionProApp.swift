@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct VisionProApp: App {
+    @State private var model = ViewModel()
+    
     var body: some Scene {
-        WindowGroup {
+        WindowGroup ("Root", id: "Root") {
             RootView()
                 .modelContainer(for: Todo.self)
+                .environment(model)
         }
     }
 }

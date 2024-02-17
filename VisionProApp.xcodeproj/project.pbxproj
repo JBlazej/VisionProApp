@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3D137D9E2B7C0D7200BC2594 /* CreateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D137D9D2B7C0D7200BC2594 /* CreateTodoView.swift */; };
 		3D137DA12B7C128100BC2594 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D137DA02B7C128100BC2594 /* AppScreen.swift */; };
-		3D656F092B7CADB3000AC599 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D656F082B7CADB3000AC599 /* ProjectCardView.swift */; };
+		3D4611D12B7D396400DF5CFB /* CapsuleRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4611D02B7D396400DF5CFB /* CapsuleRealityView.swift */; };
+		3D4611D32B7D398100DF5CFB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4611D22B7D398100DF5CFB /* ViewModel.swift */; };
+		3D4611D62B7D39E700DF5CFB /* OrbitStystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4611D52B7D39E700DF5CFB /* OrbitStystem.swift */; };
+		3D656F092B7CADB3000AC599 /* ProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D656F082B7CADB3000AC599 /* ProjectCard.swift */; };
 		3D6EDD9C2B7BACCE00083A1A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3D6EDD9B2B7BACCE00083A1A /* RealityKitContent */; };
 		3D6EDD9E2B7BACCE00083A1A /* VisionProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */; };
-		3D6EDDA42B7BACCE00083A1A /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */; };
 		3D6EDDA62B7BACCF00083A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */; };
-		3D6EDDA92B7BACCF00083A1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EDDA82B7BACCF00083A1A /* Preview Assets.xcassets */; };
 		3D6EDDB22B7BADB700083A1A /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB12B7BADB700083A1A /* Symbols.swift */; };
 		3D6EDDB42B7BAE1F00083A1A /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */; };
 		3D6EDDB62B7BAE5000083A1A /* Radii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDB52B7BAE5000083A1A /* Radii.swift */; };
@@ -22,8 +23,8 @@
 		3D6EDDC12B7BB06600083A1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC02B7BB06600083A1A /* HomeView.swift */; };
 		3D6EDDC52B7BB1F300083A1A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC42B7BB1F300083A1A /* RootView.swift */; };
 		3D6EDDC72B7BBBA400083A1A /* RootNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDC62B7BBBA400083A1A /* RootNavigationView.swift */; };
-		3D6EDDCB2B7BE10900083A1A /* TodoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */; };
-		3D6EDDCD2B7BE19100083A1A /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */; };
+		3D6EDDCB2B7BE10900083A1A /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCA2B7BE10900083A1A /* TodoCard.swift */; };
+		3D6EDDCD2B7BE19100083A1A /* StatusIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EDDCC2B7BE19100083A1A /* StatusIndicator.swift */; };
 		3DAA89CC2B7D11720016AF02 /* ModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA89CB2B7D11720016AF02 /* ModelsView.swift */; };
 		3DAA89D02B7D11D50016AF02 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */; };
 		3DCD02CF2B7CC542008EAD8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD02CE2B7CC542008EAD8F /* Extensions.swift */; };
@@ -32,13 +33,14 @@
 /* Begin PBXFileReference section */
 		3D137D9D2B7C0D7200BC2594 /* CreateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoView.swift; sourceTree = "<group>"; };
 		3D137DA02B7C128100BC2594 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
-		3D656F082B7CADB3000AC599 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		3D4611D02B7D396400DF5CFB /* CapsuleRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRealityView.swift; sourceTree = "<group>"; };
+		3D4611D22B7D398100DF5CFB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3D4611D52B7D39E700DF5CFB /* OrbitStystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitStystem.swift; sourceTree = "<group>"; };
+		3D656F082B7CADB3000AC599 /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
 		3D6EDD962B7BACCE00083A1A /* VisionProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6EDD9A2B7BACCE00083A1A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProApp.swift; sourceTree = "<group>"; };
-		3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D6EDDA82B7BACCF00083A1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D6EDDAA2B7BACCF00083A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D6EDDB12B7BADB700083A1A /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
@@ -47,11 +49,10 @@
 		3D6EDDC02B7BB06600083A1A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3D6EDDC42B7BB1F300083A1A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		3D6EDDC62B7BBBA400083A1A /* RootNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationView.swift; sourceTree = "<group>"; };
-		3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCardView.swift; sourceTree = "<group>"; };
-		3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		3D6EDDCA2B7BE10900083A1A /* TodoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCard.swift; sourceTree = "<group>"; };
+		3D6EDDCC2B7BE19100083A1A /* StatusIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicator.swift; sourceTree = "<group>"; };
 		3DAA89CB2B7D11720016AF02 /* ModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsView.swift; sourceTree = "<group>"; };
 		3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
-		3DAA89D12B7D17480016AF02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DCD02CE2B7CC542008EAD8F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,12 +92,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3D656F0A2B7CADD5000AC599 /* ProjectCardView */ = {
+		3D4611CF2B7D395000DF5CFB /* RealityViews */ = {
 			isa = PBXGroup;
 			children = (
-				3D656F082B7CADB3000AC599 /* ProjectCardView.swift */,
+				3D4611D02B7D396400DF5CFB /* CapsuleRealityView.swift */,
 			);
-			path = ProjectCardView;
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+		3D4611D42B7D39D700DF5CFB /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				3D4611D52B7D39E700DF5CFB /* OrbitStystem.swift */,
+			);
+			path = Systems;
 			sourceTree = "<group>";
 		};
 		3D6EDD8D2B7BACCE00083A1A = {
@@ -119,15 +128,13 @@
 		3D6EDD982B7BACCE00083A1A /* VisionProApp */ = {
 			isa = PBXGroup;
 			children = (
+				3DECCD792B80BD4C00CDD85C /* Modifiers */,
+				3DECCD782B80BD1000CDD85C /* Extensions */,
 				3D6EDDB82B7BAEBE00083A1A /* Features */,
 				3D6EDDB72B7BAEB400083A1A /* Core */,
 				3D6EDDB02B7BAD2200083A1A /* Resources */,
 				3D6EDD9D2B7BACCE00083A1A /* VisionProApp.swift */,
-				3D6EDDA32B7BACCE00083A1A /* ImageBasedLighting.skybox */,
-				3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */,
 				3D6EDDAA2B7BACCF00083A1A /* Info.plist */,
-				3D6EDDA72B7BACCF00083A1A /* Preview Content */,
-				3DAA89D12B7D17480016AF02 /* README.md */,
 			);
 			path = VisionProApp;
 			sourceTree = "<group>";
@@ -140,21 +147,11 @@
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		3D6EDDA72B7BACCF00083A1A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				3D6EDDA82B7BACCF00083A1A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		3D6EDDB02B7BAD2200083A1A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3D6EDDA52B7BACCF00083A1A /* Assets.xcassets */,
 				3D6EDDB12B7BADB700083A1A /* Symbols.swift */,
-				3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */,
-				3D6EDDB52B7BAE5000083A1A /* Radii.swift */,
-				3DCD02CE2B7CC542008EAD8F /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -162,6 +159,8 @@
 		3D6EDDB72B7BAEB400083A1A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3D4611D42B7D39D700DF5CFB /* Systems */,
+				3D4611CF2B7D395000DF5CFB /* RealityViews */,
 				3D6EDDC82B7BE0E400083A1A /* Views */,
 				3D6EDDBD2B7BAF6F00083A1A /* Models */,
 			);
@@ -200,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6EDDBE2B7BAF9B00083A1A /* Todo.swift */,
+				3D4611D22B7D398100DF5CFB /* ViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,19 +225,11 @@
 		3D6EDDC82B7BE0E400083A1A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3D656F0A2B7CADD5000AC599 /* ProjectCardView */,
-				3D6EDDC92B7BE0FA00083A1A /* TodoCardView */,
+				3D6EDDCC2B7BE19100083A1A /* StatusIndicator.swift */,
+				3D6EDDCA2B7BE10900083A1A /* TodoCard.swift */,
+				3D656F082B7CADB3000AC599 /* ProjectCard.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		3D6EDDC92B7BE0FA00083A1A /* TodoCardView */ = {
-			isa = PBXGroup;
-			children = (
-				3D6EDDCA2B7BE10900083A1A /* TodoCardView.swift */,
-				3D6EDDCC2B7BE19100083A1A /* StatusIndicatorView.swift */,
-			);
-			path = TodoCardView;
 			sourceTree = "<group>";
 		};
 		3DAA89C92B7D11590016AF02 /* Models */ = {
@@ -270,6 +262,23 @@
 				3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3DECCD782B80BD1000CDD85C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD02CE2B7CC542008EAD8F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DECCD792B80BD4C00CDD85C /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EDDB32B7BAE1F00083A1A /* Spacing.swift */,
+				3D6EDDB52B7BAE5000083A1A /* Radii.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,8 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6EDDA62B7BACCF00083A1A /* Assets.xcassets in Resources */,
-				3D6EDDA92B7BACCF00083A1A /* Preview Assets.xcassets in Resources */,
-				3D6EDDA42B7BACCE00083A1A /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,18 +353,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D656F092B7CADB3000AC599 /* ProjectCardView.swift in Sources */,
+				3D656F092B7CADB3000AC599 /* ProjectCard.swift in Sources */,
 				3DAA89D02B7D11D50016AF02 /* SpaceView.swift in Sources */,
 				3D6EDDBF2B7BAF9B00083A1A /* Todo.swift in Sources */,
 				3D6EDDB22B7BADB700083A1A /* Symbols.swift in Sources */,
-				3D6EDDCD2B7BE19100083A1A /* StatusIndicatorView.swift in Sources */,
+				3D6EDDCD2B7BE19100083A1A /* StatusIndicator.swift in Sources */,
 				3D6EDDC72B7BBBA400083A1A /* RootNavigationView.swift in Sources */,
 				3D137D9E2B7C0D7200BC2594 /* CreateTodoView.swift in Sources */,
 				3D6EDDB42B7BAE1F00083A1A /* Spacing.swift in Sources */,
 				3D6EDD9E2B7BACCE00083A1A /* VisionProApp.swift in Sources */,
+				3D4611D12B7D396400DF5CFB /* CapsuleRealityView.swift in Sources */,
+				3D4611D32B7D398100DF5CFB /* ViewModel.swift in Sources */,
 				3D6EDDC52B7BB1F300083A1A /* RootView.swift in Sources */,
 				3DAA89CC2B7D11720016AF02 /* ModelsView.swift in Sources */,
-				3D6EDDCB2B7BE10900083A1A /* TodoCardView.swift in Sources */,
+				3D4611D62B7D39E700DF5CFB /* OrbitStystem.swift in Sources */,
+				3D6EDDCB2B7BE10900083A1A /* TodoCard.swift in Sources */,
 				3D6EDDC12B7BB06600083A1A /* HomeView.swift in Sources */,
 				3D6EDDB62B7BAE5000083A1A /* Radii.swift in Sources */,
 				3D137DA12B7C128100BC2594 /* AppScreen.swift in Sources */,

@@ -28,7 +28,7 @@ struct SectionTitleView: View {
 
 struct PendingTodosView: View {
     @Query(
-        filter: #Predicate<Todo> { $0.status == false },
+        filter: #Predicate<Todo> { $0.isCompleted == false },
         sort: \.timestamp
     ) private var pendingTodos: [Todo]
     
@@ -49,7 +49,7 @@ struct PendingTodosView: View {
 
 struct CompletedTodosView: View {
     @Query(
-        filter: #Predicate<Todo> { $0.status == true }
+        filter: #Predicate<Todo> { $0.isCompleted == true }
     ) private var completedTodos: [Todo]
     
     var body: some View {
@@ -69,7 +69,7 @@ struct CompletedTodosView: View {
 
 struct HomeView: View {
     @Query(
-        filter: #Predicate<Todo> { $0.status == false },
+        filter: #Predicate<Todo> { $0.isCompleted == false },
         sort: \.timestamp
     ) private var pendingTodos: [Todo]
     

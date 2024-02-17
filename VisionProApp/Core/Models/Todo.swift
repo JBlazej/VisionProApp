@@ -19,14 +19,14 @@ final class Todo {
     var title: String
     var priority: TodoPriority
     var timestamp: Date
-    var status: Bool
+    var isCompleted: Bool
     var note: String?
     
-    init(title: String = "", priority: TodoPriority = TodoPriority.low, timestamp: Date = Date.now, status: Bool = false, note: String? = nil) {
+    init(title: String = "", priority: TodoPriority = TodoPriority.low, timestamp: Date = Date.now, isCompleted: Bool = false, note: String? = nil) {
         self.title = title
         self.priority = priority
         self.timestamp = timestamp
-        self.status = status
+        self.isCompleted = isCompleted
         self.note = note
     }
 }
