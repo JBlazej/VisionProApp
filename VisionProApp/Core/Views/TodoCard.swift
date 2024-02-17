@@ -11,6 +11,7 @@ import SwiftData
 struct TodoCardView: View {
     @Environment(\.modelContext) var ctx
     @Bindable var todo: Todo
+    @State private var isOpenBottomsheet: Bool = false
     
     var body: some View {
         VStack (alignment: .leading) {
@@ -51,6 +52,9 @@ struct TodoCardView: View {
                         Button("Delete TODO") {
                             ctx.delete(todo)
                         }
+                        Button("Update TODO") {
+                            isOpenBottomsheet.toggle()
+                        }
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -61,5 +65,8 @@ struct TodoCardView: View {
         .frame(maxWidth: .infinity)
         .padding()
         .glassBackgroundEffect(in: RoundedRectangle(cornerRadius: Radii.r16))
+        .sheet(isPresented: $isOpenBottomsheet) {
+            UpdateTodoView(item: todo)
+        }
     }
 }
