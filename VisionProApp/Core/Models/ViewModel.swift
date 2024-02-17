@@ -10,12 +10,9 @@ import Foundation
 @Observable
 class ViewModel
 {
-    var isShowingRocketCapsule : Bool = false
-    var isShowingFullRocket : Bool = false
-    var isShowingMixedRocket : Bool = false
+    var isShowingWindow : Bool = false
     
-    var capsuleRealityAreaId: String = "CapsuleRealityArea"
-    var fullRocketRealityArea: String = "FullRocketRealityArea"
-    var mixedRocketRealityArea: String = "MixedRocketRealityArea"
+    var windowId: String = "WindowArea"
+    var selectedTodoId: String = ""
 }
 

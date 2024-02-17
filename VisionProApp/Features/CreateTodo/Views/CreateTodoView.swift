@@ -36,6 +36,7 @@ struct CreateTodoView: View {
                 VStack {
                     Button("Create") {
                         withAnimation {
+                            item.id = UUID().uuidString
                             ctx.insert(item)
                             dismiss()
                         }
@@ -131,12 +132,4 @@ private extension CreateTodoView {
                 return "High"
             }
         }
-}
-
-#Preview {
-    let config = ModelConfiguration(isStoredInMemoryOnly: false)
-    let container = try! ModelContainer(for: Todo.self, configurations: config)
-    
-    return CreateTodoView()
-        .modelContainer(container)
 }

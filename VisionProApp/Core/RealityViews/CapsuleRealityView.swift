@@ -33,9 +33,6 @@ struct CapsuleRealityView: View {
                 .progressViewStyle(.circular)
                 .controlSize(.large)
         }
-        .onDisappear {
-            model.isShowingRocketCapsule = false
-        }
     }
 }
 

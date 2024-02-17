@@ -14,8 +14,16 @@ struct VisionProApp: App {
     var body: some Scene {
         WindowGroup ("Root", id: "Root") {
             RootView()
-                .modelContainer(for: Todo.self)
                 .environment(model)
+                .modelContainer(for: Todo.self)
         }
+        
+        WindowGroup(id: model.windowId) {
+            WindowView(id: model.selectedTodoId)
+                .environment(model)
+                .modelContainer(for: Todo.self)
+        }
+        .windowStyle(.plain)
+        .defaultSize(width: 0.5, height: 0.3, depth: 0.01, in: .meters)
     }
 }

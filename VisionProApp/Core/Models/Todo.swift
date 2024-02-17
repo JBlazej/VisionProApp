@@ -16,13 +16,15 @@ enum TodoPriority: Codable {
 
 @Model
 final class Todo {
+    var id: String
     var title: String
     var priority: TodoPriority
     var timestamp: Date
     var isCompleted: Bool
     var note: String?
     
-    init(title: String = "", priority: TodoPriority = TodoPriority.low, timestamp: Date = Date.now, isCompleted: Bool = false, note: String? = nil) {
+    init(id: String = "", title: String = "", priority: TodoPriority = TodoPriority.low, timestamp: Date = Date.now, isCompleted: Bool = false, note: String? = nil) {
+        self.id = id
         self.title = title
         self.priority = priority
         self.timestamp = timestamp

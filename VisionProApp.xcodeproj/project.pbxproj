@@ -29,6 +29,8 @@
 		3DAA89D02B7D11D50016AF02 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */; };
 		3DCD02CF2B7CC542008EAD8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD02CE2B7CC542008EAD8F /* Extensions.swift */; };
 		3DECCD7D2B80BEAC00CDD85C /* UpdateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECCD7C2B80BEAC00CDD85C /* UpdateTodoView.swift */; };
+		3DECCD802B80C57700CDD85C /* WindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECCD7F2B80C57700CDD85C /* WindowView.swift */; };
+		3DECCD822B80C61B00CDD85C /* ToggleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECCD812B80C61B00CDD85C /* ToggleWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		3DAA89CF2B7D11D50016AF02 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
 		3DCD02CE2B7CC542008EAD8F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3DECCD7C2B80BEAC00CDD85C /* UpdateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTodoView.swift; sourceTree = "<group>"; };
+		3DECCD7F2B80C57700CDD85C /* WindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowView.swift; sourceTree = "<group>"; };
+		3DECCD812B80C61B00CDD85C /* ToggleWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 		3D6EDDB82B7BAEBE00083A1A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3DECCD7E2B80C56600CDD85C /* Window */,
 				3DECCD7A2B80BE8C00CDD85C /* UpdateTodo */,
 				3DAA89CD2B7D11BC0016AF02 /* Space */,
 				3DAA89C92B7D11590016AF02 /* Models */,
@@ -231,6 +236,7 @@
 				3D6EDDCC2B7BE19100083A1A /* StatusIndicator.swift */,
 				3D6EDDCA2B7BE10900083A1A /* TodoCard.swift */,
 				3D656F082B7CADB3000AC599 /* ProjectCard.swift */,
+				3DECCD812B80C61B00CDD85C /* ToggleWindow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +304,14 @@
 				3DECCD7C2B80BEAC00CDD85C /* UpdateTodoView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3DECCD7E2B80C56600CDD85C /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				3DECCD7F2B80C57700CDD85C /* WindowView.swift */,
+			);
+			path = Window;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,10 +397,12 @@
 				3D6EDDB42B7BAE1F00083A1A /* Spacing.swift in Sources */,
 				3D6EDD9E2B7BACCE00083A1A /* VisionProApp.swift in Sources */,
 				3D4611D12B7D396400DF5CFB /* CapsuleRealityView.swift in Sources */,
+				3DECCD822B80C61B00CDD85C /* ToggleWindow.swift in Sources */,
 				3D4611D32B7D398100DF5CFB /* ViewModel.swift in Sources */,
 				3D6EDDC52B7BB1F300083A1A /* RootView.swift in Sources */,
 				3DAA89CC2B7D11720016AF02 /* ModelsView.swift in Sources */,
 				3D4611D62B7D39E700DF5CFB /* OrbitStystem.swift in Sources */,
+				3DECCD802B80C57700CDD85C /* WindowView.swift in Sources */,
 				3D6EDDCB2B7BE10900083A1A /* TodoCard.swift in Sources */,
 				3D6EDDC12B7BB06600083A1A /* HomeView.swift in Sources */,
 				3D6EDDB62B7BAE5000083A1A /* Radii.swift in Sources */,

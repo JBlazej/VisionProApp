@@ -9,31 +9,31 @@ import SwiftUI
 import SwiftData
 
 struct TodoCardView: View {
+    @Environment(ViewModel.self) private var model
     @Environment(\.modelContext) var ctx
+    @Environment(\.openWindow) private var openWindow
+    @Environment(\.dismissWindow) private var dismissWindow
+    
     @Bindable var todo: Todo
+    
     @State private var isOpenBottomsheet: Bool = false
     
+    var isWindow: Bool = false
+    
     var body: some View {
+        @Bindable var model = model
+        
         VStack (alignment: .leading) {
             HStack (alignment: .top) {
                 if !todo.isCompleted {
-                    VStack {
-                        Spacer()
-                        Toggle("Hidden", isOn: Binding<Bool>(
-                            get: {
-                                return todo.isCompleted
-                            },
-                            set: { newValue in
-                                if newValue {
-                                    todo.isCompleted = newValue
-                                } else {
-                                    todo.isCompleted = newValue
-                                }
-                            }
-                        ))
-                        .toggleStyle(.switch)
-                        .labelsHidden()
-                        Spacer()
+                    if !isWindow {
+                        VStack {
+                            Spacer()
+                            Toggle("Hidden", isOn: $todo.isCompleted)
+                                .toggleStyle(.switch)
+                                .labelsHidden()
+                            Spacer()
+                        }
                     }
                 }
                 VStack (alignment: .leading) {
@@ -48,14 +48,31 @@ struct TodoCardView: View {
                             .foregroundColor(.secondary)
                             .multilineTextAlignment(.leading)
                     }
-                    HStack {
-                        Button("Delete TODO") {
-                            ctx.delete(todo)
-                        }
-                        if !todo.isCompleted {
-                            Button("Update TODO") {
-                                isOpenBottomsheet.toggle()
+                    if !isWindow {
+                        HStack {
+                            Button("Delete TODO") {
+                                ctx.delete(todo)
                             }
+                            
+                            if !todo.isCompleted {
+                                Button("Update TODO") {
+                                    isOpenBottomsheet.toggle()
+                                }
+                            }
+                        }
+                        
+                        Button(model.selectedTodoId == todo.id ? "Hide" : "Show me - \(todo.id)") {
+                            if(model.selectedTodoId == todo.id) {
+                                model.selectedTodoId = ""
+                                model.isShowingWindow = false
+                                dismissWindow(id: model.windowId)
+                                return
+                            }
+                            
+                            model.selectedTodoId = todo.id
+                            guard !model.isShowingWindow else { return }
+                            model.isShowingWindow = true
+                            openWindow(id: model.windowId)
                         }
                     }
                 }
